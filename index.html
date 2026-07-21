@@ -1,267 +1,239 @@
-<!DOCTYPE HTML>
-<!--
-    Hyperspace by HTML5 UP
-    html5up.net | @ajlkn
-    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-	<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-YEHBN4667V"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-YEHBN4667V');
-</script>
-    <title>Miles Hall Portfolio Page</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
-    <style>
-        /* Styling for the profile photo */
-        .profile-photo {
-            border-radius: 50%;
-            width: 150px; /* Adjust size as needed */
-            height: 150px; /* Maintain aspect ratio */
-            object-fit: cover;
-            margin-bottom: 20px; /* Space between image and text */
-        }
-    </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Miles Hall — software engineer and computer science student building AI systems and full-stack products.">
+  <meta name="theme-color" content="#080c12">
+  <title>Miles Hall | Software Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/cs-portfolio.css">
 </head>
-<body class="is-preload">
+<body>
+  <div class="code-rain" aria-hidden="true">
+    <pre data-code="const developer = 'Miles Hall';"></pre><pre data-code="git commit -m 'build what matters'"></pre><pre data-code="async function create() { await learn(); }"></pre><pre data-code="python3 train.py --curiosity max"></pre><pre data-code="SELECT ideas FROM imagination;"></pre>
+  </div>
 
-
-    <!-- Sidebar -->
-    <section id="sidebar">
-        <div class="inner">
-            <nav>
-                <ul>
-                    <li><a href="#intro">Welcome</a></li>
-                    <li><a href="#one">Who I am</a></li>
-                    <li><a href="#two">What I do</a></li>
-                    <li><a href="#three">Get in touch</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="elements.html">Resume</a></li>
-
-                </ul>
-            </nav>
-        </div>
-    </section>
-
-    <!-- Wrapper -->
-    <div id="wrapper">
-
-        <!-- Intro -->
-        <section id="intro" class="wrapper style1 fullscreen fade-up">
-            <div class="inner">
-                <img src="images/miles.jpg" alt="Miles Hall" class="profile-photo" />
-
-                <h1>Miles Hall</h1>
-                <p>Aspiring computer science student at Loyola University Maryland. With a passion for software development and a strong foundation in Python and Java, I am dedicated to advancing my skills and contributing to the tech community. I am particularly interested in exploring artificial intelligence and data security, and I am excited about the opportunities to apply my knowledge in real-world projects.</p>
-                <ul class="actions">
-                    <li><a href="#one" class="button scrolly">Learn more</a></li>
-                </ul>
-            </div>
-        </section>
-
-        <!-- One -->
-        <section id="one" class="wrapper style2 spotlights">
-            <section>
-                <a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
-                <div class="content">
-                    <div class="inner">
-                        <h2>My Development</h2>
-                        <p>As a dedicated computer science student, I am continuously expanding my knowledge and skills. My journey so far includes a variety of projects and hands-on experiences that have sharpened my abilities in both programming and problem-solving.</p>
-                        <ul class="actions">
-                            <li><a href="generic.html" class="button">Learn more</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-            <section>
-                <a href="#" class="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a>
-                <div class="content">
-                    <div class="inner">
-                        <h2>Passion</h2>
-                        <p>My passion for technology drives me to explore new tools and methodologies. I am committed to staying at the forefront of technological advancements and applying these insights to innovative projects and solutions.</p>
-                        <ul class="actions">
-                            <li><a href="generic.html" class="button">Learn more</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-            <section>
-                <a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
-                <div class="content">
-                    <div class="inner">
-                        <h2>Approach</h2>
-                        <p>With a focus on practical applications, I aim to leverage my programming skills to tackle real-world challenges. My approach is hands-on, and I am always eager to learn and adapt to new technologies and trends.</p>
-                        <ul class="actions">
-                            <li><a href="generic.html" class="button">Learn more</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-        </section>
-
-        <!-- Two -->
-        <section id="two" class="wrapper style3 fade-up">
-            <div class="inner">
-                <h2>What I do</h2>
-                <p>My work encompasses various aspects of computer science, from developing software applications to researching cutting-edge technologies. I am particularly interested in integrating AI into practical applications and enhancing data security measures.</p>
-
-                <section>
-                    <span class="icon solid major fa-code"></span>
-                    <h3>Programming Languages</h3>
-                    <p>Proficient in Java, Python, Javascript, TypeScript, CSS. I have used Python for various projects including ATM simulations, language translators, and interactive games. With Java, I have developed card games, Conway's Game of Life, and Maze Runner, among other projects.</p>
-                </section>
-                <section>
-                    <span class="icon solid major fa-lock"></span>
-                    <h3>Technology and Tools</h3>
-                    <p>Proficient in NextJS, React, HTML, CSS, StripeAPI, Material UI, Firebase, Clerk, Tailwind CSS, Git, GitHub, Pinecone, Gemini LLM, Firebase Firestore, and RESTful API integration.</p>
-                </section>
-                <section>
-                    <span class="icon solid major fa-cog"></span>
-                    <h3>Projects</h3>
-                    <li><a href="projects.html" class="button">My projects</a></li>
-                </section>
-                <section>
-                    <span class="icon solid major fa-desktop"></span>
-                    <h3>Research and Development</h3>
-                    <p>Interested in exploring artificial intelligence and data security. Planning on participating in hackathons and research projects related to these areas.</p>
-                </section>
-                <section>
-                    <span class="icon solid major fa-link"></span>
-                    <h3>Additional Interests</h3>
-                    <p>In addition to my core skills, I am exploring various areas within computer science, including advanced machine learning techniques and cybersecurity. I am committed to continuous learning and staying updated with industry trends.</p>
-                    <section>
-                        <span class="icon solid major fa-trophy"></span>
-                        <h3>Achievements</h3>
-                        <ul class="alt">
-                            <li><i class="icon solid fa-award"></i> <strong>Dean’s List</strong> - Spring 2024</li>
-                            <li><i class="icon solid fa-graduation-cap"></i> <strong>Hyman Science Scholar</strong> - Recognized for academic excellence in Computer Science</li>
-                            <li><i class="icon solid fa-briefcase"></i> <strong>Selected for MLT Career Prep</strong> - Exclusive 18-month program for top diverse talent</li>
-                            <li><i class="icon solid fa-laptop-code"></i> <strong>Accepted into SEO EDGE</strong> - Intensive technical and professional development program</li>
-                            <li><i class="icon solid fa-users"></i> <strong>Founded ColorStack @ LUM Chapter</strong> - Built a thriving tech community for underrepresented students</li>
-                        </ul>
-                    </section>
-            
-                <ul class="actions">
-                    <li><a href="generic.html" class="button">Learn more</a></li>
-                </ul>
-            </div>
-        </section>
-
-        <!-- Three -->
-        <section id="three" class="wrapper style1 fade-up">
-            <div class="inner">
-                <h2>Get in touch</h2>
-                <p>If you'd like to get in touch, please feel free to reach out. I'm always open to discussing potential projects, collaborations, or any questions you might have about my work and experiences.</p>
-                
-                <!-- Email Button Section -->
-                <section>
-                    <ul class="actions">
-                        <li><a href="mailto:mileshall423@gmail.com?subject=Resume%20Inquiry&body=Hello%20Miles,%0A%0AI%20would%20like%20to%20discuss%20your%20resume.%0A%0AThank%20you." class="button primary">Email Me</a></li>
-                    </ul>
-                </section>
-
-                <!-- Contact Form using Formspree -->
-                <section>
-                    <form id="contact-form" method="post" action="https://formspree.io/f/mdknadyy">
-                        <div class="fields">
-                            <div class="field half">
-                                <label for="name">Name</label>
-                                <input type="text" name="name" id="name" required />
-                            </div>
-                            <div class="field half">
-                                <label for="email">Email</label>
-                                <input type="email" name="email" id="email" required />
-                            </div>
-                            <div class="field">
-                                <label for="message">Message</label>
-                                <textarea name="message" id="message" rows="5" required></textarea>
-                            </div>
-                        </div>
-                        <ul class="actions">
-                            <li><input type="submit" value="Send Message" class="button submit" /></li>
-                        </ul>
-                        <p id="form-status" style="display:none;">Thank you for your message! I will get back to you soon.</p>
-                    </form>
-                </section>
-
-                <!-- Existing Contact Details -->
-                <section>
-                    <ul class="contact">
-                        <li>
-                            <h3>Email</h3>
-                            <a href="mailto:mileshall423@gmail.com">mileshall423@gmail.com</a>
-                        </li>
-                        <li>
-                            <h3>Phone</h3>
-                            <span>(443) 522-8552</span>
-                        </li>
-                        <li>
-                            <h3>Social</h3>
-                            <ul class="icons">
-                                <li><a href="https://github.com/mileshall1" class="icon brands fa-github" target="_blank"><span class="label">GitHub</span></a></li>
-                                <li><a href="https://www.linkedin.com/in/miles-hall-3a26732b2" class="icon brands fa-linkedin-in" target="_blank"><span class="label">LinkedIn</span></a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </section>
-            </div>
-        </section>
-
-        <!-- Footer -->
-        <footer id="footer" class="wrapper style1-alt">
-            <div class="inner">
-                <ul class="menu">
-                    <li>&copy; Untitled. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-                </ul>
-            </div>
-        </footer>
-
+  <main class="desktop" id="top">
+    <div class="titlebar">
+      <div class="window-controls" aria-hidden="true"><i></i><i></i><i></i></div>
+      <button class="command-trigger" id="command-trigger" type="button" aria-haspopup="dialog" aria-expanded="false"><span class="vs-mark">◇</span><span>Search portfolio</span><kbd>⌘ K</kbd></button>
+      <div class="title-actions"><button class="theme-toggle" id="theme-toggle" type="button" aria-label="Switch to light mode" aria-pressed="false"><span>☼</span><b>LIGHT</b></button><a href="assets/Miles-Hall-Resume.pdf" target="_blank" class="title-resume">resume.pdf ↗</a></div>
     </div>
 
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.scrollex.min.js"></script>
-    <script src="assets/js/jquery.scrolly.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
-    <script>
-        document.getElementById('contact-form').addEventListener('submit', function(event) {
-            event.preventDefault();
-            var form = event.target;
-            var formData = new FormData(form);
-            
-            fetch(form.action, {
-                method: form.method,
-                body: formData,
-                headers: {
-                    'Accept': 'application/json'
-                }
-            }).then(function(response) {
-                if (response.ok) {
-                    document.getElementById('form-status').style.display = 'block';
-                    form.reset();
-                } else {
-                    response.json().then(function(data) {
-                        if (Object.hasOwn(data, 'errors')) {
-                            alert('Oops! There was a problem submitting your form');
-                        }
-                    })
-                }
-            }).catch(function(error) {
-                alert('Oops! There was a problem submitting your form');
-            });
-        });
-    </script>
+    <div class="workspace">
+      <aside class="activity-bar" aria-label="Portfolio navigation">
+        <a href="#home" class="active" aria-label="Home">⌘</a>
+        <a href="#experience" aria-label="Experience">▱</a>
+        <a href="#projects" aria-label="Projects">⑂</a>
+        <a href="#skills" aria-label="Skills">⬡</a>
+        <a href="#contact" aria-label="Contact">✉</a>
+        <a href="https://github.com/mileshall1" target="_blank" rel="noreferrer" class="activity-bottom" aria-label="GitHub">◉</a>
+      </aside>
 
+      <aside class="explorer">
+        <p class="explorer-title">EXPLORER</p>
+        <div class="folder"><span>⌄</span> MILES-PORTFOLIO</div>
+        <nav>
+          <a href="#home"><i class="file-js">JS</i> about.js</a>
+          <a href="#experience"><i class="file-json">{}</i> experience.json</a>
+          <a href="#projects"><i class="file-react">⚛</i> projects.tsx</a>
+          <a href="#skills"><i class="file-css">#</i> skills.css</a>
+          <a href="#contact"><i class="file-html">&lt;&gt;</i> contact.html</a>
+          <a href="assets/Miles-Hall-Resume.pdf" target="_blank"><i class="file-pdf">PDF</i> resume.pdf</a>
+        </nav>
+        <div class="outline">
+          <p>⌄ OUTLINE</p>
+          <a href="#home">Miles Hall</a><a href="#experience">experience</a><a href="#projects">projects</a><a href="#skills">toolkit</a>
+        </div>
+      </aside>
+
+      <section class="editor">
+        <div class="editor-progress" aria-hidden="true"><i id="editor-progress-bar"></i></div>
+        <div class="tabs" aria-label="Open portfolio files">
+          <a class="tab active" href="#home"><span class="file-js">JS</span> about.js <b>×</b></a>
+          <a class="tab" href="#projects"><span class="file-react">⚛</span> projects.tsx</a>
+          <a class="tab" href="#experience"><span class="file-json">{}</span> experience.json</a>
+        </div>
+        <div class="breadcrumbs"><a href="#home" class="back-home" aria-label="Back to home">← Home</a><span class="crumb-path">miles-portfolio <i>›</i> src <i>›</i> <b>about.js</b></span></div>
+
+        <div class="editor-scroll">
+          <section class="hero code-section" id="home" data-file="about.js">
+            <div class="line-numbers" aria-hidden="true">1<br>2<br>3<br>4<br>5<br>6<br>7<br>8<br>9<br>10<br>11<br>12<br>13<br>14<br>15<br>16</div>
+            <div class="hero-content">
+              <div class="profile-cards">
+                <a class="profile-chip" href="https://www.linkedin.com/in/miles-hall1" target="_blank" rel="noreferrer" aria-label="View Miles Hall on LinkedIn"><img src="images/linkedin-profile.jpg" alt="Miles Hall professional headshot"><span><b>miles_hall.jpg</b><small>LinkedIn profile ↗</small></span></a>
+                <a class="profile-chip github-chip" href="https://github.com/mileshall1" target="_blank" rel="noreferrer" aria-label="View Miles Hall on GitHub"><img src="images/github-profile.png" alt="Miles Hall GitHub avatar"><span><b>@mileshall1</b><small>15 repositories · GitHub ↗</small></span></a>
+              </div>
+              <p class="code-comment">// Hello, world. I'm</p>
+              <h1>Miles<br><span>Hall</span><i class="typing-cursor"></i></h1>
+              <p class="role"><span class="syntax-keyword">const</span> role = <span class="syntax-string">"Software Engineer"</span>;</p>
+              <p class="intro">Computer science student at Loyola University Maryland building full-stack products, intelligent retrieval systems, and tools that make complex work feel simple.</p>
+              <div class="hero-actions">
+                <a href="#projects" class="button primary">run projects.tsx <span>▶</span></a>
+                <a href="assets/Miles-Hall-Resume.pdf" target="_blank" class="button">open resume.pdf <span>↗</span></a>
+              </div>
+              <div class="terminal-card">
+                <div class="terminal-head"><span>TERMINAL</span><span>bash — 80×24</span></div>
+                <div class="terminal-text"><span class="prompt">miles@portfolio</span>:<span class="path">~</span>$ <span id="typed-command"></span><i class="terminal-cursor"></i><p id="command-output"></p></div>
+              </div>
+              <div class="system-graphic" aria-hidden="true"><span>01</span><i></i><span>AI</span><i></i><span>API</span><i></i><span>SHIP</span><b>system.build()</b></div>
+            </div>
+          </section>
+
+          <section class="code-section experience" id="experience" data-file="experience.json">
+            <div class="line-numbers" aria-hidden="true">17<br>18<br>19<br>20<br>21<br>22<br>23<br>24<br>25<br>26<br>27<br>28<br>29<br>30<br>31<br>32<br>33<br>34</div>
+            <div class="section-content">
+              <a class="linkedin-banner" href="https://www.linkedin.com/in/miles-hall1" target="_blank" rel="noreferrer" aria-label="View Miles Hall on LinkedIn"><img src="images/linkedin-banner.jpg" alt="Loyola University Maryland campus entrance"><span>linkedin.com/in/miles-hall1 ↗</span></a>
+              <p class="code-comment">// experience.json</p>
+              <div class="section-heading"><div><p class="kicker">WORK HISTORY</p><h2>Where I’ve been <span>building.</span></h2></div><div class="timeline-actions"><p>Real products. Real users.<br>Constant learning.</p><button id="timeline-expand-all" type="button" aria-pressed="false">Expand all +</button></div></div>
+              <div class="timeline">
+                <article class="timeline-entry expanded">
+                  <div class="timeline-meta"><span class="current-dot"></span><p>MAY 2026 — PRESENT</p><small>Austin, TX</small></div>
+                  <div><button class="timeline-toggle" type="button" aria-expanded="true" aria-controls="dell-details"><span><small>DELL TECHNOLOGIES</small><strong>Software Engineering Intern</strong></span><i>−</i></button><div class="timeline-details" id="dell-details"><div><p>Developing an internal AI assistant for Dell’s Client Solutions Group using Ollama, vector embeddings, ChromaDB, and Memgraph. Designing semantic retrieval pipelines that turn enterprise data into useful, context-aware answers.</p><ul><li>Ollama</li><li>ChromaDB</li><li>Memgraph</li><li>RAG</li></ul></div></div></div>
+                </article>
+                <article class="timeline-entry">
+                  <div class="timeline-meta"><p>JUN 2025 — MAY 2026</p><small>Catonsville, MD</small></div>
+                  <div><button class="timeline-toggle" type="button" aria-expanded="false" aria-controls="erickson-details"><span><small>ERICKSON SENIOR LIVING</small><strong>IT Training Team Intern</strong></span><i>+</i></button><div class="timeline-details" id="erickson-details"><div><p>Supported access provisioning, service desk operations, Microsoft 365 training, and technical onboarding across multiple communities.</p><ul><li>Microsoft 365</li><li>SharePoint</li><li>IT Support</li></ul></div></div></div>
+                </article>
+                <article class="timeline-entry">
+                  <div class="timeline-meta"><p>JUN — AUG 2024</p><small>Virtual</small></div>
+                  <div><button class="timeline-toggle" type="button" aria-expanded="false" aria-controls="headstarter-details"><span><small>HEADSTARTER</small><strong>Software Engineering Fellow</strong></span><i>+</i></button><div class="timeline-details" id="headstarter-details"><div><p>Built five AI applications and APIs using Next.js, Pinecone, and Stripe, reaching 500 users and 98% measured accuracy.</p><ul><li>Next.js</li><li>Pinecone</li><li>Stripe API</li></ul></div></div></div>
+                </article>
+              </div>
+            </div>
+          </section>
+
+          <section class="code-section projects" id="projects" data-file="projects.tsx">
+            <div class="line-numbers" aria-hidden="true">35<br>36<br>37<br>38<br>39<br>40<br>41<br>42<br>43<br>44<br>45<br>46<br>47<br>48<br>49<br>50</div>
+            <div class="section-content">
+              <p class="code-comment">// projects.tsx — selected work</p>
+              <div class="section-heading"><div><p class="kicker">FEATURED BUILDS</p><h2>Ideas I’ve <span>shipped.</span></h2></div><a href="https://github.com/mileshall1" target="_blank" rel="noreferrer">view GitHub ↗</a></div>
+              <div class="project-grid">
+                <article class="project-card accent">
+                  <div class="project-top"><span>01</span><span class="award">1ST PLACE · HACKHOUNDS 2025</span></div>
+                  <a class="project-click" href="https://devpost.com/software/bucket-3hzwcf" target="_blank" rel="noreferrer" aria-label="View Bucket on Devpost"><div class="project-code">recommendations<br><span>.for</span>(you)</div><b>↗</b></a>
+                  <h3><a href="https://devpost.com/software/bucket-3hzwcf" target="_blank" rel="noreferrer">Bucket ↗</a></h3><p>An AI-powered, location-based recommendation platform with secure authentication and personal lists.</p>
+                  <ul><li>Next.js</li><li>Gemini</li><li>Firestore</li><li>Clerk</li></ul>
+                </article>
+                <article class="project-card">
+                  <div class="project-top"><span>02</span><span>HACKPRINCETON 2025</span></div>
+                  <a class="project-click" href="https://github.com/mileshall1/HackPrinceton" target="_blank" rel="noreferrer" aria-label="View CMDFlow source on GitHub"><div class="project-code"><span>$</span> history | smart-search</div><b>↗</b></a>
+                  <h3><a href="https://github.com/mileshall1/HackPrinceton" target="_blank" rel="noreferrer">CMDFlow ↗</a></h3><p>A command-tracking platform with shell capture, instant search, JWT auth, and AI summaries.</p>
+                  <ul><li>Python</li><li>FastAPI</li><li>React</li><li>MongoDB</li><li>Docker</li></ul>
+                </article>
+                <article class="project-card">
+                  <div class="project-top"><span>03</span><span>AWARD WINNER</span></div>
+                  <a class="project-click" href="https://huzz-hub.vercel.app" target="_blank" rel="noreferrer" aria-label="Open the HuzzHub live site"><img src="images/gallery.jpg" alt="HuzzHub interface" loading="lazy"><b>↗</b></a>
+                  <h3><a href="https://huzz-hub.vercel.app" target="_blank" rel="noreferrer">HuzzHub ↗</a></h3><p>A real-time AI conversation assistant built with meme-aware humor and Gemini.</p>
+                  <ul><li>Next.js</li><li>Gemini</li><li>Firebase</li></ul>
+                  <div class="project-links"><a href="https://huzz-hub.vercel.app" target="_blank" rel="noreferrer">demo ↗</a><a href="https://devpost.com/software/huzzhub-h52udq" target="_blank" rel="noreferrer">case study ↗</a></div>
+                </article>
+                <article class="project-card">
+                  <div class="project-top"><span>04</span><span>CONVERSATIONAL AI</span></div>
+                  <a class="project-click" href="https://lebron-ai.vercel.app" target="_blank" rel="noreferrer" aria-label="Open the LeBronAI live site"><img src="images/lebronai.png" alt="LeBron AI interface" loading="lazy"><b>↗</b></a>
+                  <h3><a href="https://lebron-ai.vercel.app" target="_blank" rel="noreferrer">LeBronAI ↗</a></h3><p>A responsive real-time AI chat experience powered by Groq and Firebase.</p>
+                  <ul><li>Next.js</li><li>Groq</li><li>Firestore</li></ul>
+                  <div class="project-links"><a href="https://lebron-ai.vercel.app" target="_blank" rel="noreferrer">demo ↗</a></div>
+                </article>
+                <article class="project-card games-card">
+                  <div class="project-top"><span>05</span><span>82–0 STYLE DRAFT GAMES</span></div>
+                  <a class="project-click" href="https://github.com/mileshall1/perfect-six-games" target="_blank" rel="noreferrer" aria-label="View Two-Minute Draft Games on GitHub">
+                    <div class="game-preview"><span>CRISIS<br>DRAFT</span><span>DROP<br>FIVE</span><span>MARCH<br>MADNESS</span><span>COLLEGE<br>FOOTBALL</span></div><b>↗</b>
+                  </a>
+                  <h3><a href="https://github.com/mileshall1/perfect-six-games" target="_blank" rel="noreferrer">Two-Minute Draft Games ↗</a></h3>
+                  <p>A polished game hub inspired by the fast, constrained team-building loop of 82–0. Draft a team or loadout, manage limited redraws, and see how your picks perform.</p>
+                  <ul><li>JavaScript</li><li>HTML</li><li>CSS</li><li>Game Design</li><li>Live Data</li></ul>
+                  <div class="project-links"><a href="https://github.com/mileshall1/perfect-six-games" target="_blank" rel="noreferrer">source code ↗</a></div>
+                </article>
+                <article class="project-card accent">
+                  <div class="project-top"><span>06</span><span class="wip-status">● WORK IN PROGRESS</span></div>
+                  <a class="project-click" href="https://github.com/mileshall1/BudgetMaxxing" target="_blank" rel="noreferrer" aria-label="View BudgetMaxxing source on GitHub"><div class="project-code"><span>$</span> spend --analyze --advise</div><b>↗</b></a>
+                  <h3><a href="https://github.com/mileshall1/BudgetMaxxing" target="_blank" rel="noreferrer">BudgetMaxxing ↗</a></h3>
+                  <p>An in-progress, student-focused budgeting platform designed to import bank data or statements, categorize spending, and generate clear financial insights and overspending alerts.</p>
+                  <ul><li>Python</li><li>FastAPI</li><li>PostgreSQL</li><li>Plaid</li><li>AI</li></ul>
+                  <div class="project-links"><a href="https://github.com/mileshall1/BudgetMaxxing" target="_blank" rel="noreferrer">source code ↗</a></div>
+                </article>
+                <article class="project-card">
+                  <div class="project-top"><span>07</span><span class="wip-status">● WORK IN PROGRESS</span></div>
+                  <a class="project-click" href="https://github.com/mileshall1/StatTrack" target="_blank" rel="noreferrer" aria-label="View StatTrack source on GitHub"><div class="project-code">GET <span>/api/games</span><br>POST <span>/api/games</span></div><b>↗</b></a>
+                  <h3><a href="https://github.com/mileshall1/StatTrack" target="_blank" rel="noreferrer">StatTrack ↗</a></h3>
+                  <p>An in-progress NBA game tracker using an Express server, REST endpoints, persistent JSON data, and an interface for adding and viewing saved games.</p>
+                  <ul><li>Node.js</li><li>Express</li><li>REST API</li><li>HTML</li><li>JavaScript</li></ul>
+                  <div class="project-links"><a href="https://github.com/mileshall1/StatTrack" target="_blank" rel="noreferrer">source code ↗</a></div>
+                </article>
+              </div>
+            </div>
+          </section>
+
+          <section class="code-section skills" id="skills" data-file="skills.css">
+            <div class="line-numbers" aria-hidden="true">51<br>52<br>53<br>54<br>55<br>56<br>57<br>58<br>59<br>60<br>61<br>62</div>
+            <div class="section-content">
+              <p class="code-comment">/* skills.css */</p>
+              <div class="section-heading"><div><p class="kicker">TECHNICAL TOOLKIT</p><h2>How I turn <span>logic into products.</span></h2></div></div>
+              <div class="skill-grid">
+                <div><span>01</span><h3>Languages</h3><p>Java · JavaScript · Python · C · Bash/Zsh · R · SAS · Assembly</p></div>
+                <div><span>02</span><h3>Web</h3><p>Next.js · React · FastAPI · Express · Tailwind CSS · Material UI · Vite</p></div>
+                <div><span>03</span><h3>Data &amp; AI</h3><p>PostgreSQL · MongoDB · Firebase · ChromaDB · Memgraph · Gemini · Ollama · Pinecone</p></div>
+                <div><span>04</span><h3>Systems</h3><p>Linux · Docker · REST APIs · Git · JWT · Semantic Retrieval</p></div>
+              </div>
+              <div class="education-card">
+                <div><p class="kicker">EDUCATION</p><h3>Loyola University Maryland</h3><p>B.S. Computer Science · Minors in Finance and Data Science · Expected May 2027</p></div>
+                <div class="edu-stats"><span><b>3.37</b> GPA</span><span><b>2×</b> Dean’s List</span><span><b>Hyman</b> Science Scholar</span></div>
+              </div>
+              <a class="github-snapshot" href="https://github.com/mileshall1" target="_blank" rel="noreferrer"><span>GITHUB / MILESHALL1</span><strong>15 public repositories</strong><em>Baltimore, Maryland · View profile ↗</em></a>
+            </div>
+          </section>
+
+          <section class="code-section contact" id="contact" data-file="contact.html">
+            <div class="line-numbers" aria-hidden="true">63<br>64<br>65<br>66<br>67<br>68<br>69<br>70</div>
+            <div class="section-content contact-inner">
+              <p class="code-comment">// Ready for the next challenge.</p>
+              <h2>Let’s build something<br><span>worth running.</span></h2>
+              <p>I’m open to software engineering opportunities and ambitious technical projects.</p>
+              <a href="mailto:mileshall423@gmail.com" class="email-link">mileshall423@gmail.com <span>↗</span></a>
+              <div class="socials"><a href="https://github.com/mileshall1" target="_blank" rel="noreferrer">GitHub</a><a href="https://www.linkedin.com/in/miles-hall1" target="_blank" rel="noreferrer">LinkedIn</a><a href="assets/Miles-Hall-Resume.pdf" target="_blank">Résumé</a></div>
+            </div>
+          </section>
+        </div>
+      </section>
+    </div>
+    <footer class="statusbar"><span>⑂ codex/computer-science-refresh</span><span>ⓧ 0　⚠ 0</span><span class="status-spacer"></span><span>Ln 70, Col 1</span><span>UTF-8</span><span>{ } JavaScript</span><span>◉ Go Live</span></footer>
+    <div class="command-backdrop" id="command-backdrop" aria-hidden="true">
+      <section class="command-palette" role="dialog" aria-modal="true" aria-labelledby="command-title">
+        <div class="command-search"><span>⌕</span><input id="command-input" type="text" autocomplete="off" placeholder="Type a command or section..." aria-label="Search commands"><kbd>ESC</kbd></div>
+        <p id="command-title">PORTFOLIO COMMANDS</p>
+        <div class="command-list" id="command-list">
+          <button type="button" data-command="section" data-target="home"><span><i class="file-js">JS</i> Go to About</span><kbd>01</kbd></button>
+          <button type="button" data-command="section" data-target="experience"><span><i class="file-json">{}</i> Go to Experience</span><kbd>02</kbd></button>
+          <button type="button" data-command="section" data-target="projects"><span><i class="file-react">⚛</i> Go to Projects</span><kbd>03</kbd></button>
+          <button type="button" data-command="section" data-target="skills"><span><i class="file-css">#</i> Go to Toolkit</span><kbd>04</kbd></button>
+          <button type="button" data-command="section" data-target="contact"><span><i class="file-html">&lt;&gt;</i> Go to Contact</span><kbd>05</kbd></button>
+          <button type="button" data-command="theme"><span><i>◐</i> Toggle color theme</span><kbd>Theme</kbd></button>
+          <a href="assets/Miles-Hall-Resume.pdf" target="_blank"><span><i class="file-pdf">PDF</i> Open résumé</span><kbd>↗</kbd></a>
+          <a href="https://github.com/mileshall1" target="_blank" rel="noreferrer"><span><i>⑂</i> Open GitHub profile</span><kbd>↗</kbd></a>
+          <a href="https://www.linkedin.com/in/miles-hall1" target="_blank" rel="noreferrer"><span><i>in</i> Open LinkedIn profile</span><kbd>↗</kbd></a>
+        </div>
+        <footer><span>↑↓ navigate</span><span>↵ select</span><span>esc close</span></footer>
+      </section>
+    </div>
+    <div class="assistant-shell">
+      <button class="assistant-launcher" id="assistant-launcher" type="button" aria-expanded="false" aria-controls="assistant-panel"><span class="bot-pulse"></span><i>◇</i><b>Ask MilesBot</b><kbd>AI</kbd></button>
+      <section class="assistant-panel" id="assistant-panel" aria-hidden="true" aria-label="MilesBot portfolio assistant">
+        <header><div><span class="bot-avatar">◇</span><p><strong>MilesBot</strong><small><i></i> Portfolio assistant · online</small></p></div><button id="assistant-close" type="button" aria-label="Close MilesBot">×</button></header>
+        <div class="assistant-messages" id="assistant-messages" aria-live="polite">
+          <div class="bot-message"><span>◇</span><p>Hey! I’m MilesBot. Ask me about Miles’s projects, experience, skills, education, or how to get in touch.</p></div>
+        </div>
+        <div class="assistant-prompts" id="assistant-prompts">
+          <button type="button">What is Miles building?</button><button type="button">Tell me about Dell</button><button type="button">Best project?</button><button type="button">Outside of code?</button>
+        </div>
+        <form class="assistant-form" id="assistant-form"><label for="assistant-input" class="sr-only">Ask MilesBot a question</label><input id="assistant-input" type="text" autocomplete="off" maxlength="180" placeholder="Ask about Miles..."><button type="submit" aria-label="Send question">↑</button></form>
+        <footer><span>Local knowledge base</span><span>No data leaves your browser</span></footer>
+      </section>
+    </div>
+  </main>
+  <script src="assets/js/portfolio.js"></script>
 </body>
 </html>
